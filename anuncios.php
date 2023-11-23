@@ -1,6 +1,7 @@
 <?php 
-include_once 'includes/templates/header.php';
-?>
+    require_once 'includes/funciones.php';
+    incluirTemplate("header", $inicio = true);
+?> 
     <main class="contenedor seccion">
 
         <h2>Casas y Depas en Venta</h2>
@@ -208,5 +209,5 @@ include_once 'includes/templates/header.php';
     </main>
 
     <?php 
-include_once 'includes/templates/footer.php';
+    incluirTemplate("footer", $inicio = true);
 ?>

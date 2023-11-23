@@ -1,11 +1,12 @@
-<?php 
-include_once 'includes/templates/header.php';
+<?php
+require_once 'includes/funciones.php';
+incluirTemplate("header", $inicio = true);
 ?>
 
-    <main class="contenedor seccion">
-        <h1>Titulo Página</h1>
-    </main>
+<main class="contenedor seccion">
+    <h1>Titulo Página</h1>
+</main>
 
-    <?php 
-include_once 'includes/templates/footer.php';
+<?php
+incluirTemplate("footer", $inicio = true);
 ?>
